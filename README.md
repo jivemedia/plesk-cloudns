@@ -18,13 +18,13 @@ Automatically adds and removes slave DNS zones in ClouDNS when domains are creat
 
 ## What it does not
 - Configure Plesk’s DNS templates or ClouDNS nameservers.
-- Offer a graphical interface—requires manual editing of the `ClouDNS.php` file.
+- Offer a graphical interface - requires manual editing of the `ClouDNS.php` file.
 
 ## Requirements
-- Plesk Obsidian **18.0.69+**
-- SSH access as **root** (or via `sudo`)
-- PHP CLI with the `curl` extension
-- ClouDNS API user credentials (auth-id & password)
+- Plesk Obsidian **18.0.69+**.
+- SSH access as **root** (or via `sudo`).
+- PHP CLI with the `curl` extension.
+- ClouDNS API user credentials (`auth-id` & `password`).
 
 ## Installation
 1. Create an API user in ClouDNS (obtain `auth-id` & `password`).  
@@ -35,7 +35,7 @@ Automatically adds and removes slave DNS zones in ClouDNS when domains are creat
 
 ## Basic troubleshooting
 - Ensure your ClouDNS API user has both IPv4 & IPv6 allowed.  
-- In Plesk’s DNS Template (Tools & Settings → General Settings → DNS Template → Transfer Restrictions), allow transfers to all your nameservers.
+- In Plesk’s DNS Settings (Tools & Settings → General Settings → DNS Settings → Transfer Restrictions Template), allow transfers to all your nameservers.
 
 ## Debugging
 1. In `ClouDNS.php`, change `$debug = false;` to `$debug = true;`.  
