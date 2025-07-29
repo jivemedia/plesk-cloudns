@@ -5,7 +5,7 @@
  * To work, this file needs to be placed at `/usr/local/psa/admin/plib/registry/EventListener/` and credentials entered.
  *
  * @package   plesk-cloudns-event
- * @license   http://www.gnu.org/licenses/lgpl.txt GNU LESSER GENERAL PUBLIC LICENSE v3
+ * @license   https://www.gnu.org/licenses/lgpl-3.0.txt GNU LESSER GENERAL PUBLIC LICENSE v3
  * @copyright 2018–2025 Nick Andriopoulos
  * @copyright 2025 Greg Sevastos
  * @author    Nick Andriopoulos <nand@lambda-twelve.com>
