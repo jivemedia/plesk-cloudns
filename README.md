@@ -42,7 +42,7 @@ Automatically adds and removes slave DNS zones in ClouDNS when domains are creat
 2. `tail -f /var/log/plesk/panel.log` while creating/deleting a domain in Plesk.  
 
 ## Credits
-- Forked from Nick Andriopoulos’s original [plesk-cloudns](https://github.com/lambdatwelve/plesk-cloudns).  
+- Forked from Nick Andriopoulos’ original [plesk-cloudns](https://github.com/lambdatwelve/plesk-cloudns).  
 - Updated by Greg Sevastos for compatibility with Plesk 18.0.69+.
 
 ## License
