@@ -31,7 +31,7 @@ Automatically adds and removes slave DNS zones in ClouDNS when domains are creat
 2. Copy `ClouDNS.php` to `/usr/local/psa/admin/plib/registry/EventListener/`.  
 3. Edit `ClouDNS.php`, set your `authid`, `authkey`, and (optionally) `masterip`.  
 4. (Optional) Set `$debug = true` for verbose logging.  
-5. Done—enjoy automatic zone syncing!
+5. Done - enjoy automatic zone syncing!
 
 ## Basic troubleshooting
 - Ensure your ClouDNS API user has both IPv4 & IPv6 allowed.  
@@ -42,7 +42,7 @@ Automatically adds and removes slave DNS zones in ClouDNS when domains are creat
 2. `tail -f /var/log/plesk/panel.log` while creating/deleting a domain in Plesk.  
 
 ## Credits
-- Forked from Nick Andriopoulos’s original [plesk-cloudns-event](https://github.com/lambdatwelve/plesk-cloudns).  
+- Forked from Nick Andriopoulos’s original [plesk-cloudns](https://github.com/lambdatwelve/plesk-cloudns).  
 - Updated by Greg Sevastos for compatibility with Plesk 18.0.69+.
 
 ## License
